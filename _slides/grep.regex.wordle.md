@@ -38,157 +38,59 @@ That's it, time to go back up.
 
 ----
 
-## Slides
+# grep, regular expressions, Wordle
 
-Not a coder? Not a problem. There's a fully-featured visual editor for authoring these, try it out at [slides.com](http://slides.com).
+enormous number of problems revolve around reducing the search or solution space.
+Reduce by increasing constraints:
+- sieve of Eratosthenes
+https://en.wikipedia.org/wiki/Sieve_of_Eratosthenes
+- finding someone lost at sea
+- guessing a number between 1 and 1,000
 
-----
 
-## Point of view
+duality of constraints:
+- positive/negative space
+- image: David
+- quote: "How did you create David?", "It was easy. I just chipped away the stone that doesn’t look like David."
+https://en.wikipedia.org/wiki/David_(Michelangelo)
 
-Hold down **alt** and click on any element to zoom in on it using [zoom.js](http://lab.hakim.se/zoom-js). **alt** + **click** anywhere to zoom back out.
+- figure/ground
+- image: wife and mother-in-law
+https://en.wikipedia.org/wiki/My_Wife_and_My_Mother-in-Law
+- image: vase and two profiles
+https://en.wikipedia.org/wiki/Figure%E2%80%93ground_(perception)#Non-visual
 
-----
+- selection/counter-selection
+image: petri dish
+https://www.snopes.com/fact-check/petri-dishes-coughed-on-mask/
 
-## Touch optimized
 
-Presentations look great on touch devices, like mobile phones and tablets. Simply swipe through your slides.
+With data
+grep: select/exclude
 
-----
+things you can do with grep, regular expressions:
+- parse data
+- find patterns in a list of strings
 
-## Markdown support
 
-Write content using pure Markdown.
+Protype search problem: Wordle
+https://en.wikipedia.org/wiki/Wordle
 
-Instructions and more info available in the [readme](https://github.com/admhlt/jekyll-and-slide).
+Large solution space that gets smaller with each successive guess, i.e. constraints.
+- 660+ words in /usr/share/dict/words
 
-```html
-  ## Markdown support
+Process: reduce the search space
+- Initial search space
+  1 - get a list of words
+  2 - select for 5-letter lower-case words
+  3 - guess first word
+- Reduce search space
+  1 - select for letters that exist at a position
+  2 - exclude letters that don't exist anywhere
+  3a - select for letters that exist somewhere
+  3b - exclude letters that don't exist at a position
+  4 - guess next word
+  5 - repeat
 
-  Write content using pure Markdown.
+We can use regular expression patterns to express constraints.
 
-  Instructions and more info available in the [readme](https://github.com/admhlt/jekyll-and-slide).
-```
-
-----
-
-## Fragments
-
-Hit the next arrow...
-
-<span class="fragment">... to step through ...</span>
-
-<span class="fragment">... a</span> <span class="fragment">fragmented</span> <span class="fragment">slide.</span>
-
-~~
-
-## Fragment Styles
-
-There's different types of fragments, like:
-
-<p class="fragment grow">grow</p>
-
-<p class="fragment shrink">shrink</p>
-
-<p class="fragment fade-out">fade-out</p>
-
-<p class="fragment current-visible">current-visible</p>
-
-<p class="fragment highlight-red">highlight-red</p>
-
-<p class="fragment highlight-blue">highlight-blue</p>
-
-----
-
-## Transition styles
-
-You can select from different transitions, like:
-
--   [None](?transition=none#/7)
--   [Fade](?transition=fade#/7)
--   [Slide](?transition=slide#/7)
--   [Convex](?transition=convex#/7)
--   [Concave](?transition=concave#/7)
--   [Zoom](?transition=zoom#/7)
-
-----
-
-## Pretty code
-
-```js
-function linkify( selector ) {
-  if( supports3DTransforms ) {
-
-    var nodes = document.querySelectorAll( selector );
-
-    for( var i = 0, len = nodes.length; i &lt; len; i++ ) {
-      var node = nodes[i];
-
-      if( !node.className ) {
-        node.className += ' roll';
-      }
-    }
-  }
-}
-```
-
-Code syntax highlighting courtesy of [Rouge](http://rouge.jneen.net).
-
-----
-
-## Marvelous lists
-
--   No order here
--   Or here
--   Or here
--   Or here
-
-----
-
-## Fantastic ordered lists
-
-1.  One is smaller than...
-2.  Two is smaller than...
-3.  Three!
-
-----
-
-## Tabular tables
-
-| Item     | Value | Quantity |
-|-----------------------------|
-| Apples   |    $1 |        7 |
-| Lemonade |    $2 |       18 |
-| Bread    |    $3 |        2 |
-
-----
-
-## Clever quotes
-
-These guys come in two forms, inline: <q cite="http://searchservervirtualization.techtarget.com/definition/Our-Favorite-Technology-Quotations">&ldquo;The nice thing about standards is that there are so many to choose from&rdquo;</q> and block:
-
-> &ldquo;For years there has been a theory that millions of monkeys typing at random on millions of typewriters would reproduce the entire works of Shakespeare. The Internet has proven this theory to be untrue.&rdquo;
-
-----
-
-## Intergalactic interconnections
-
-You can link between slides internally, [like this](#/2/3).
-
-----
-
-## Speaker view
-
-There's a [speaker view](https://github.com/hakimel/reveal.js#speaker-notes). It includes a timer, preview of the upcoming slide as well as your speaker notes.
-
-Press the **S** key to try it out.
-
-Notes:
-
-Oh hey, these are some notes. They'll be hidden in your presentation, but you can see them if you open the speaker notes window (hit S on your keyboard).
-
-----
-
-## Take a moment
-
-Press **B** or **.** on your keyboard to pause the presentation. This is helpful when you're on stage and want to take distracting slides off the screen.
