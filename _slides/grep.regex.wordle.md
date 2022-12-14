@@ -4,9 +4,7 @@ description: Using grep to help with Wordle
 theme: black
 ---
 
-## stuff
-
-subheader
+### A Gentle Introduction to Regular Expressions for Playing Wordle.
 
 ----
 
