@@ -10,15 +10,15 @@ subheader
 
 ----
 
-<img src="../../public/grep/wordle.jpg" alt="slide" width="400"/>
+<img src="../../public/grep/wordle.jpg" alt="slide" width="600"/>
 
 ----
 
-<img src="../../public/grep/wordle.rules.png" alt="slide" width="400"/>
+<img src="../../public/grep/wordle.rules.png" alt="slide" width="600"/>
 
 ----
 
-<img src="../../public/grep/list.of.words.jpg" alt="slide" width="500"/>
+<img src="../../public/grep/list.of.words.jpg" alt="slide" width="600"/>
 
 ----
 
@@ -26,13 +26,13 @@ subheader
 
 ---
 
-<img src="../../public/grep/wordle.rules.png" alt="slide" width="700"/>
+<img src="../../public/grep/wordle.rules.png" alt="slide" width="600"/>
 
 ---
 
 |   |   |
 --- | ---
-Fan: "How did you create David?"<br />Mike: "It was easy. I just chipped away the stone that doesn’t look like David." | <img src="../../public/grep/david.jpg" alt="slide" width="400"/>
+Fan: "How did you create David?"<br />Mike: "It was easy. I just chipped away the stone that doesn’t look like David." | <img src="../../public/grep/david.jpg" alt="slide" width="600"/>
 
 ----
 
