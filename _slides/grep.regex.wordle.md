@@ -4,52 +4,41 @@ description: Using grep to help with Wordle
 theme: black
 ---
 
-## grep
+## stuff
 
-reveal.js enables you to create beautiful interactive slide decks using HTML. This presentation will show you examples of what it can do.
-
-----
-
-<img src="../../public/grep/wordle.jpg" alt="slide" width="300"/>
+subheader
 
 ----
 
-<img src="../../public/grep/wordle.rules.png" alt="slide" width="300"/>
+<img src="../../public/grep/wordle.jpg" alt="slide" width="400"/>
 
 ----
 
-<img src="../../public/grep/list.of.words.jpg" alt="slide" width="300"/>
+<img src="../../public/grep/wordle.rules.png" alt="slide" width="400"/>
 
 ----
 
-<img src="../../public/grep/needle.haystack.jpg" alt="slide" width="300"/>
+<img src="../../public/grep/list.of.words.jpg" alt="slide" width="500"/>
+
+----
+
+<img src="../../public/grep/needle.haystack.jpg" alt="slide" width="600"/>
 
 ---
 
-<img src="../../public/grep/david.jpg" alt="slide" width="300"/>
+<img src="../../public/grep/wordle.rules.png" alt="slide" width="700"/>
+
+---
+
+|   |   |
+--- | ---
+Fan: "How did you create David?"<br />Mike: "It was easy. I just chipped away the stone that doesn’t look like David." | <img src="../../public/grep/david.jpg" alt="slide" width="400"/>
 
 ----
 
 <img src="../../public/grep/wordle.rules.png" alt="slide" width="300"/>
 
 ----
-
-|    |  |
---- | --- 
-<img src="../../public/grep/list.of.words.jpg" alt="slide" width="300"/> | Stuff
-
-
-----
-
-|    |  |
---- | --- 
-<img src="../../public/grep/list.of.words.jpg" alt="slide" width="300"/> | Stuff
-
-----
-
-foo | bar
---- | --- 
-<img src="../../public/grep/list.of.words.jpg" alt="slide" width="300"/> | Stuff
 
 
 ----
@@ -137,4 +126,3 @@ Process: reduce the search space
   5 - repeat
 
 We can use regular expression patterns to express constraints.
-
