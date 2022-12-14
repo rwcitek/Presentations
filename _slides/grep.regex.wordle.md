@@ -10,6 +10,50 @@ reveal.js enables you to create beautiful interactive slide decks using HTML. Th
 
 ----
 
+<img src="../../public/grep/wordle.jpg" alt="slide" width="300"/>
+
+----
+
+<img src="../../public/grep/wordle.rules.png" alt="slide" width="300"/>
+
+----
+
+<img src="../../public/grep/list.of.words.jpg" alt="slide" width="300"/>
+
+----
+
+<img src="../../public/grep/needle.haystack.jpg" alt="slide" width="300"/>
+
+---
+
+<img src="../../public/grep/david.jpg" alt="slide" width="300"/>
+
+----
+
+<img src="../../public/grep/wordle.rules.png" alt="slide" width="300"/>
+
+----
+
+|    |  |
+--- | --- 
+<img src="../../public/grep/list.of.words.jpg" alt="slide" width="300"/> | Stuff
+
+
+----
+
+|    |  |
+--- | --- 
+<img src="../../public/grep/list.of.words.jpg" alt="slide" width="300"/> | Stuff
+
+----
+
+foo | bar
+--- | --- 
+<img src="../../public/grep/list.of.words.jpg" alt="slide" width="300"/> | Stuff
+
+
+----
+
 ## Vertical slides
 
 Slides can be nested inside of each other.
