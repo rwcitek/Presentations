@@ -6,6 +6,9 @@ theme: black
 
 ### A Gentle Introduction to grep for Playing Wordle
 
+<img src="../../public/grep/qr.wordle.grep.regex.png" alt="slide" width="300"/>
+
+
 ----
 
 <img src="../../public/grep/wordle.jpg" alt="slide" width="600"/>
