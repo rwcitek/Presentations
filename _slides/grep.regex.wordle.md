@@ -8,7 +8,7 @@ theme: black
 
 <img src="../../public/grep/qr.wordle.grep.regex.png" alt="slide" width="300"/>
 
-
+Robert Citek
 ----
 
 <img src="../../public/grep/wordle.jpg" alt="slide" width="600"/>
