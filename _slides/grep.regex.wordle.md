@@ -35,7 +35,7 @@ Fan: "How did you create David?"<br />Mike: "It was easy. I just chipped away th
 
 # In practice ...
 
-https://github.com/rwcitek/MyBinder.demo/blob/main/Regular.Expressions/wordle.bash.v03.ipynb
+[Jupyter Notebook on GitHub](https://github.com/rwcitek/MyBinder.demo/blob/main/Regular.Expressions/wordle.bash.v03.ipynb)
 
 ----
 
