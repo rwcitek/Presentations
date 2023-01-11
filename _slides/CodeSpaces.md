@@ -12,31 +12,162 @@ Robert Citek
 
 ----
 
-<img src="../../public/grep/wordle.jpg" alt="slide" width="600"/>
+# Getting started
 
 ----
 
-<img src="../../public/grep/wordle.rules.png" alt="slide" width="600"/>
+<img src="../../public/codespaces/screenshot.110.png" alt="slide" width="600"/>
 
 ----
 
-<img src="../../public/grep/list.of.words.jpg" alt="slide" width="600"/>
+<img src="../../public/codespaces/screenshot.111.png" alt="slide" width="600"/>
 
 ----
 
-<img src="../../public/grep/needle.haystack.jpg" alt="slide" width="600"/>
-
----
-
-Fan: "How did you create David?"<br />Mike: "It was easy. I just chipped away the stone that doesn’t look like David." 
-
-<img src="../../public/grep/david.jpg" alt="slide" width="600"/>
+<img src="../../public/codespaces/screenshot.112.png" alt="slide" width="600"/>
 
 ----
 
-# In practice ...
+<img src="../../public/codespaces/screenshot.113.png" alt="slide" width="600"/>
 
-[Jupyter Notebook on GitHub](https://github.com/rwcitek/MyBinder.demo/blob/main/Regular.Expressions/wordle.bash.v03.ipynb)
+----
+
+<img src="../../public/codespaces/screenshot.114.png" alt="slide" width="600"/>
+
+----
+
+<img src="../../public/codespaces/screenshot.115.png" alt="slide" width="600"/>
+
+----
+
+# Editing
+
+----
+
+<img src="../../public/codespaces/screenshot.120.png" alt="slide" width="600"/>
+
+----
+
+<img src="../../public/codespaces/screenshot.121.png" alt="slide" width="600"/>
+
+----
+
+<img src="../../public/codespaces/screenshot.122.png" alt="slide" width="600"/>
+
+----
+
+# Terminal
+
+----
+
+<img src="../../public/codespaces/screenshot.130.png" alt="slide" width="600"/>
+
+----
+
+<img src="../../public/codespaces/screenshot.131.png" alt="slide" width="600"/>
+
+----
+
+<img src="../../public/codespaces/screenshot.132.png" alt="slide" width="600"/>
+
+----
+
+<img src="../../public/codespaces/screenshot.133.png" alt="slide" width="600"/>
+
+----
+
+<img src="../../public/codespaces/screenshot.134.png" alt="slide" width="600"/>
+
+----
+
+<img src="../../public/codespaces/screenshot.135.png" alt="slide" width="600"/>
+
+----
+
+<img src="../../public/codespaces/screenshot.136.png" alt="slide" width="600"/>
+
+----
+
+# Sharing
+
+----
+
+<img src="../../public/codespaces/screenshot.140.png" alt="slide" width="600"/>
+
+----
+
+<img src="../../public/codespaces/screenshot.141.png" alt="slide" width="600"/>
+
+----
+
+<img src="../../public/codespaces/screenshot.142.png" alt="slide" width="600"/>
+
+----
+
+<img src="../../public/codespaces/screenshot.143.png" alt="slide" width="600"/>
+
+----
+
+<img src="../../public/codespaces/screenshot.144.png" alt="slide" width="600"/>
+
+----
+
+<img src="../../public/codespaces/screenshot.145.png" alt="slide" width="600"/>
+
+----
+
+<img src="../../public/codespaces/screenshot.146.png" alt="slide" width="600"/>
+
+----
+
+<img src="../../public/codespaces/screenshot.147.png" alt="slide" width="600"/>
+
+----
+
+# Shutting down
+
+----
+
+<img src="../../public/codespaces/screenshot.150.png" alt="slide" width="600"/>
+
+----
+
+<img src="../../public/codespaces/screenshot.151.png" alt="slide" width="600"/>
+
+----
+
+<img src="../../public/codespaces/screenshot.152.png" alt="slide" width="600"/>
+
+----
+
+<img src="../../public/codespaces/screenshot.153.png" alt="slide" width="600"/>
+
+----
+
+<img src="../../public/codespaces/screenshot.154.png" alt="slide" width="600"/>
+
+----
+
+# Docs, costs, etc.
+
+----
+
+<img src="../../public/codespaces/screenshot.160.png" alt="slide" width="600"/>
+
+----
+
+<img src="../../public/codespaces/screenshot.161.png" alt="slide" width="600"/>
+
+----
+
+<img src="../../public/codespaces/screenshot.162.png" alt="slide" width="600"/>
+
+----
+
+# What's next?
+
+----
+
 
 ----
 
