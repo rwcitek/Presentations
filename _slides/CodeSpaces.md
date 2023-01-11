@@ -6,7 +6,7 @@ theme: black
 
 ### GitHub Codespaces
 
-<img src="../../public/grep/qr.wordle.grep.regex.png" alt="slide" width="300"/>
+<img src="../../public/codespaces/qr.codespaces.png" alt="slide" width="300"/>
 
 Robert Citek
 
@@ -20,19 +20,19 @@ Robert Citek
 
 ----
 
-<img src="../../public/codespaces/screenshot.111.png" alt="slide" width="800"/>
+<img src="../../public/codespaces/screenshot.111.png" alt="slide" width="900"/>
 
 ----
 
-<img src="../../public/codespaces/screenshot.112.png" alt="slide" width="800"/>
+<img src="../../public/codespaces/screenshot.112.png" alt="slide" width="1000"/>
 
 ----
 
-<img src="../../public/codespaces/screenshot.113.png" alt="slide" width="800"/>
+<img src="../../public/codespaces/screenshot.113.png" alt="slide" width="1100"/>
 
 ----
 
-<img src="../../public/codespaces/screenshot.114.png" alt="slide" width="800"/>
+<img src="../../public/codespaces/screenshot.114.png" alt="slide" width="1200"/>
 
 ----
 
