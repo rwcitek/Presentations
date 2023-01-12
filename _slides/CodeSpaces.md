@@ -9,6 +9,7 @@ theme: black
 <img src="../../public/codespaces/qr.codespaces.png" alt="slide" width="300"/>
 
 Robert Citek
+
 robert.citek@gmail.com
 
 ----
@@ -183,6 +184,7 @@ robert.citek@gmail.com
 <img src="../../public/codespaces/qr.codespaces.png" alt="slide" width="300"/>
 
 Robert Citek
+
 robert.citek@gmail.com
 
 ----
