@@ -1,6 +1,6 @@
 ---
 title: DSUB
-description:  dsub: simple batch jobs with Docker
+description:  dsub - simple batch jobs with Docker
 theme: black
 ---
 
