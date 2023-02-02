@@ -149,24 +149,24 @@ Use "the cloud"
 - dsub ( batch scheduler )
 
 <img
-src="https://lh3.googleusercontent.com/D4Zcor2AekWNG-5vxBLHIUhLiqfx327GwqhQ9xJNx8Ne1-GCFu9YECaKGXlwtUPfDFgO53-phOQ=e14-rw-lo-sc0xffffff-h24"
-alt="GCP"
-width="100"
+  src="https://lh3.googleusercontent.com/D4Zcor2AekWNG-5vxBLHIUhLiqfx327GwqhQ9xJNx8Ne1-GCFu9YECaKGXlwtUPfDFgO53-phOQ=e14-rw-lo-sc0xffffff-h24"
+  alt="GCP"
+  width="200"
 />
 <img
-src="https://banner2.cleanpng.com/20180412/kye/kisspng-python-programming-language-computer-programming-language-5acfdc3636bac7.8891188615235717662242.jpg"
-alt="Python"
-width="100"
+  src="https://banner2.cleanpng.com/20180412/kye/kisspng-python-programming-language-computer-programming-language-5acfdc3636bac7.8891188615235717662242.jpg"
+  alt="Python"
+  width="200"
 />
 <img
-src="https://www.docker.com/wp-content/uploads/2022/03/Moby-logo.png"
-alt="Docker"
-width="100"
+  src="https://www.docker.com/wp-content/uploads/2022/03/Moby-logo.png"
+  alt="Docker"
+  width="200"
 />
 <img
-src="https://lh3.googleusercontent.com/E6eJcOVeO64N8P3gPvRoSwmrzK-olWpfje16gjhGKlKPgQKXmfIqjnQfYaX8gdE0zMvLLGy678dBrYNxMwavKg=w80-h80"
-alt="GCR"
-width="100"
+  src="https://lh3.googleusercontent.com/E6eJcOVeO64N8P3gPvRoSwmrzK-olWpfje16gjhGKlKPgQKXmfIqjnQfYaX8gdE0zMvLLGy678dBrYNxMwavKg=w80-h80"
+  alt="GCR"
+  width="200"
 />
 
 
