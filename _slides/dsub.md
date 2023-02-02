@@ -6,6 +6,16 @@ theme: black
 
 # dsub: simple batch jobs with Docker
 
+<img
+  src="../../public/dsub/qr.dsub.png"
+  alt="slide" 
+  width="300"
+/>
+
+Robert Citek
+
+robert.citek@gmail.com
+
 ---
 
 # Flow
@@ -43,7 +53,7 @@ Collect ~10,000 pathology slide scans for machine learning
 - milestone: within 2 weeks
 
 ---
-# Can this be done?
+## Can this be done?
 
 <img
   src="https://health.wyo.gov/wp-content/uploads/2017/05/man-with-question-mark.jpg"
@@ -234,7 +244,7 @@ width="100"
 - 3 hours << 2 weeks << 7 months
 - from 5,000 hours to 3 hours => ~1,000x
 - from $30,000 to $300 => ~100x
-- Net: at least 1,000x time-dollar savings
+- Net: ~100,000x time-dollar savings
 
 ----
 
@@ -337,18 +347,26 @@ dsub \
 - [git](https://github.com/rwcitek/git.sample/tree/master/git.deep.dive)
 - [GitHub](https://rwcitek.github.io/gh-slides/slides/github-demo/#/)
 
-
 ----
 
-# 
-
-----
 ## Questions?
 
+<img
+  src="../../public/dsub/qr.dsub.png"
+  alt="slide" 
+  width="300"
+/>
+
+Robert Citek
+
+robert.citek@gmail.com
+
 ----
+
 ## 
  
 ----
+
 ## 
 
 ---
@@ -363,29 +381,11 @@ dsub \
 
 ----
 
+To the optimist, the glass is half full.<br />
+To the pessimist, the glass is half empty.<br />
+To the engineer, the glass is twice as big as it needs to be.<br />
+To Excel, the glass is January 2nd.<br />
 
 
-
-
-
-
-
-
-To the optimist, the glass is half full.
-To the pessimist, the glass is half empty.
-To the engineer, the glass is twice as big as it needs to be.
-To Excel, the glass is January 2nd.
-
-
-----
-## Stubs
-
-<img src="
-" alt="slide" width="400"/>
-
-- <span class="fragment">
-</span>
-
-![Stub](../../public/apple-touch-icon-precomposed.png)
 
 
