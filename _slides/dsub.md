@@ -269,7 +269,7 @@ Use "the cloud"
 ----
 
 ## Start a Docker container instance
-```bash
+```
 ( dsub_tmp=/tmp/dsub-$( date +%s ) &&
 docker container run \
   --detach \
@@ -286,7 +286,7 @@ docker container run \
 
 ## Exec into instance
 
-```bash
+```
 docker container exec -it dsub /bin/bash
 ```
 
@@ -294,7 +294,7 @@ docker container exec -it dsub /bin/bash
 
 ## Setup environment
 
-```bash
+```
 docker image pull ubuntu:22.04
 docker image tag ubuntu:22.04 ubuntu:dsub
 
@@ -305,7 +305,7 @@ docker image list ubuntu
 
 ## Run a command
 
-```bash
+```
 dsub \
   --provider local \
   --image    ubuntu:dsub \
