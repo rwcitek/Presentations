@@ -56,32 +56,33 @@ Collect ~10,000 pathology slide scans for machine learning
 
 ## 10,000 Images: Quick calcs
 
-### Size
-- MB/image: ~100
-  - total : ~1 TB
+- Size
+  - MB/image: ~100
+    - total : ~1 TB
 
-### Time
-- min/image: ~30 
-  - min: 
-  - hrs: 
-  - days: 
-  - weeks: 
-  - mo: 
+- Time
+  - min/image: ~30 
+    - minutes: 
+    - hours: 
+    - days: 
+    - weeks: 
+    - months: 
 
 ----
 
 ## 10,000 Images: Quick calcs
-### Size
-- MB/image: ~100
-  - total: ~1 TB
 
-### Time
-- min/image: ~30 
-  - min: ~300,000 
-  - hrs: ~5,000 
-  - days: ~200
-  - weeks: ~30 
-  - mo: ~7.5 
+- Size
+  - MB/image: ~100
+    - total: ~1 TB
+
+- Time
+  - min/image: ~30 
+    - minutes: ~300,000 
+    - hours: ~5,000 
+    - days: ~200
+    - weeks: ~30 
+    - months: ~7.5 
 
 ----
 
@@ -98,7 +99,7 @@ Collect ~10,000 pathology slide scans for machine learning
 - Admit defeat: it will take 7.5 months
 
 - <span class="fragment">
-Get a much bigger computer(s) ( $10k-$20k+ )
+Get a much bigger computer(s) ( ~$30k+ )
 </span>
 
 - <span class="fragment">
@@ -114,7 +115,7 @@ Use "the cloud"
 <img
   src="https://www.gstatic.com/devrel-devsite/prod/v6cd15f45ec209c8961e07ea7e57ed9a0e9da4333bc915e67d1fcd2b2a9ec62d1/cloud/images/social-icon-google-cloud-1200-630.png" 
   alt="GCP"
-  width="400"
+  width="800"
 />
 
 
@@ -125,7 +126,7 @@ Use "the cloud"
 <img
   src="https://33.media.tumblr.com/8039ce32aa6b389a0ac721b32fa441ac/tumblr_njeqnxCI0m1qzbj7zo1_500.gif" 
   alt="GCP"
-  width="400"
+  width="800"
 />
 
 ----
@@ -140,22 +141,22 @@ Use "the cloud"
 <img
 src="https://lh3.googleusercontent.com/D4Zcor2AekWNG-5vxBLHIUhLiqfx327GwqhQ9xJNx8Ne1-GCFu9YECaKGXlwtUPfDFgO53-phOQ=e14-rw-lo-sc0xffffff-h24"
 alt="GCP"
-width="50"
+width="100"
 />
 <img
 src="https://banner2.cleanpng.com/20180412/kye/kisspng-python-programming-language-computer-programming-language-5acfdc3636bac7.8891188615235717662242.jpg"
 alt="Python"
-width="50"
+width="100"
 />
 <img
 src="https://www.docker.com/wp-content/uploads/2022/03/Moby-logo.png"
 alt="Docker"
-width="50"
+width="100"
 />
 <img
 src="https://lh3.googleusercontent.com/E6eJcOVeO64N8P3gPvRoSwmrzK-olWpfje16gjhGKlKPgQKXmfIqjnQfYaX8gdE0zMvLLGy678dBrYNxMwavKg=w80-h80"
 alt="GCR"
-width="50"
+width="100"
 />
 
 
@@ -176,7 +177,7 @@ width="50"
 ----
 ## Connecting the Dots
 
-<img src="../../public/dsub.workflow.combo.png" alt="slide" width="400"/>
+<img src="../../public/dsub/dsub.workflow.combo.png" alt="slide" width="800"/>
 
 ----
 
@@ -202,7 +203,11 @@ width="50"
 
 ## 4,000 CPUs
 
-<img src="https://storage.googleapis.com/gweb-uniblog-publish-prod/images/unnamed_RTmGiMI.max-1300x1300.png" alt="data center" width="1000"/>
+<img
+  src="https://storage.googleapis.com/gweb-uniblog-publish-prod/images/unnamed_RTmGiMI.max-1300x1300.png"
+  alt="data center"
+  width="1000"
+/>
 
 ----
 
@@ -211,14 +216,14 @@ width="50"
 <img
   src="https://www.pngkey.com/png/detail/18-180664_calendar-clock-comments-time-and-date-icon-png.png"
   alt="time"
-  width="200"
-  height="200"
+  width="400"
+  height="400"
 />
 <img
   src="https://pngimages.in/uploads/png-webp/2022/2022-September/Money_Png_Transparent_Images.webp"
   alt="time"
-  width="200"
-  height="200"
+  width="400"
+  height="400"
 />
 
 
@@ -227,8 +232,8 @@ width="50"
 ## Big savings
 
 - 3 hours << 2 weeks << 7 months
-- 3 hours vs 5,000 hours => ~1,000x
-- $300 vs $10,000 => ~100x
+- from 5,000 hours to 3 hours => ~1,000x
+- from $30,000 to $300 => ~100x
 - Net: at least 1,000x time-dollar savings
 
 ----
@@ -240,6 +245,10 @@ width="50"
   alt="time"
   height="400"
 />
+
+----
+
+# Where to start?
 
 ----
 
