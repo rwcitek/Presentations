@@ -136,7 +136,7 @@ Use "the cloud"
 <img
   src="https://33.media.tumblr.com/8039ce32aa6b389a0ac721b32fa441ac/tumblr_njeqnxCI0m1qzbj7zo1_500.gif" 
   alt="GCP"
-  width="800"
+  width="400"
 />
 
 ----
