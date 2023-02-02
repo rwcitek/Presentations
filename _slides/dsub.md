@@ -12,8 +12,7 @@ theme: black
   width="300"
 />
 
-Robert Citek
-
+Robert Citek<br />
 robert.citek@gmail.com
 
 ---
@@ -357,8 +356,7 @@ dsub \
   width="300"
 />
 
-Robert Citek
-
+Robert Citek<br />
 robert.citek@gmail.com
 
 ----
