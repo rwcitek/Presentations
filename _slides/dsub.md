@@ -269,7 +269,7 @@ Use "the cloud"
 
 ## Start a Docker container instance
 ```
-( dsub_tmp=/tmp/dsub-$( date +%s ) &&
+$ ( dsub_tmp=/tmp/dsub-$( date +%s ) &&
 docker container run \
   --detach \
   --name    dsub \
@@ -286,7 +286,7 @@ docker container run \
 ## Exec into instance
 
 ```
-docker container exec -it dsub /bin/bash
+$ docker container exec -it dsub /bin/bash
 ```
 
 ----
@@ -294,38 +294,252 @@ docker container exec -it dsub /bin/bash
 ## Setup environment
 
 ```
-docker image pull ubuntu:22.04
-docker image tag ubuntu:22.04 ubuntu:dsub
+# docker image pull ubuntu:22.04
+# docker image tag ubuntu:22.04 ubuntu:dsub
+# docker image list ubuntu
 
-docker image list ubuntu
+  REPOSITORY   TAG       IMAGE ID       CREATED       SIZE
+  ubuntu       22.04     58db3edaf2be   7 days ago    77.8MB
+  ubuntu       dsub      58db3edaf2be   7 days ago    77.8MB
+  ubuntu       latest    6b7dfa7e8fdb   7 weeks ago   77.8MB
 ```
 
 ----
 
-## Run a command
+## Run a dsub command
 
 ```
-dsub \
+# dsub \
   --provider local \
   --image    ubuntu:dsub \
   --logging  "${TMPDIR}/dsub-test/logging/" \
   --output   OUT="${TMPDIR}/dsub-test/output/out.command.txt" \
   --command  'echo "Hello World" > "${OUT}"' \
   --wait
+
+```
+
+----
+
+## Run a dsub command
+Output
+
+```
+Job properties:
+  job-id: echo--root--230202-234211-97
+  job-name: echo
+  user-id: root
+Launched job-id: echo--root--230202-234211-97
+To check the status, run:
+  dstat --provider local --jobs 'echo--root--230202-234211-97' --users 'root' --status '*'
+To cancel the job, run:
+  ddel --provider local --jobs 'echo--root--230202-234211-97' --users 'root'
+Waiting for job to complete...
+Waiting for: echo--root--230202-234211-97.
+  echo--root--230202-234211-97: SUCCESS
+echo--root--230202-234211-97
+```
+
+----
+
+## View command output
+
+```
+# tree dsub-test/
+dsub-test/
+|-- logging
+|   |-- echo--root--230202-234211-97-stderr.log
+|   |-- echo--root--230202-234211-97-stdout.log
+|   `-- echo--root--230202-234211-97.log
+`-- output
+    `-- out.command.txt
+```
+```
+# cat dsub-test/output/out.command.txt 
+Hello World
+```
+
+
+----
+
+## Run multiple jobs<br />using a TSV file (pt1)
+
+Create a mock input file
+
+```
+# echo 'Hello, world!' > /tmp/input.txt
+```
+Create the TSV file with inputs and outputs
+```
+# << eof sed -e's/ *{tab} */\t/g' > run.tsv
+--input INPUT  {tab} --output OUTPUT
+/tmp/input.txt {tab} ${TMPDIR}/dsub-test/output/out1.multi.txt
+/tmp/input.txt {tab} ${TMPDIR}/dsub-test/output/out2.multi.txt
+/tmp/input.txt {tab} ${TMPDIR}/dsub-test/output/out3.multi.txt
+eof
+```
+
+----
+
+## Run multiple jobs<br />using a TSV file (pt2)
+
+Create a script that generates output from input
+```
+<<'eof' cat > multi-job.sh
+#!/bin/bash
+sed -e 's/Hello/Greetings/' "${INPUT}" > "${OUTPUT}"
+date >> "${OUTPUT}"
+eof
+```
+
+----
+
+## Run multiple jobs<br />using a TSV file (pt3)
+
+Run dsub
+```
+# dsub \
+  --provider local \
+  --image ubuntu:dsub \
+  --logging "${TMPDIR}/dsub-test/logging/" \
+  --script ./multi-job.sh \
+  --tasks ./run.tsv \
+  --wait
+```
+
+----
+
+## Run multiple jobs<br />output
+
+```
+Job properties:
+  job-id: multi-job--root--230202-235111-34
+  job-name: multi-job
+  user-id: root
+Launched job-id: multi-job--root--230202-235111-34
+3 task(s)
+To check the status, run:
+  dstat --provider local --jobs 'multi-job--root--230202-235111-34' --users 'root' --status '*'
+To cancel the job, run:
+  ddel --provider local --jobs 'multi-job--root--230202-235111-34' --users 'root'
+Waiting for job to complete...
+Waiting for: multi-job--root--230202-235111-34.
+  multi-job--root--230202-235111-34: SUCCESS
+multi-job--root--230202-235111-34
+```
+
+----
+
+## 
+
+```
+# tree dsub-test/
+dsub-test/
+|-- logging
+|   |-- multi-job--root--230202-235111-34.1-stderr.log
+|   |-- multi-job--root--230202-235111-34.1-stdout.log
+|   |-- multi-job--root--230202-235111-34.1.log
+|   |-- multi-job--root--230202-235111-34.2-stderr.log
+|   |-- multi-job--root--230202-235111-34.2-stdout.log
+|   |-- multi-job--root--230202-235111-34.2.log
+|   |-- multi-job--root--230202-235111-34.3-stderr.log
+|   |-- multi-job--root--230202-235111-34.3-stdout.log
+|   `-- multi-job--root--230202-235111-34.3.log
+`-- output
+    |-- out1.multi.txt
+    |-- out2.multi.txt
+    `-- out3.multi.txt
+```
+
+----
+
+## 
+
+```
+# cat -n dsub-test/output/out3.multi.txt 
+     1  Greetings, world!
+     2  Thu Feb  2 23:51:23 UTC 2023
 ```
 
 ----
 
 # dsub GCP
 
+----
+
+## Setup
+
+```
+# gcloud init
+...
+
+# export GOOGLE_APPLICATION_CREDENTIALS=/root/.config/gcloud/...
+```
+
+Enable APIs
+- https://console.developers.google.com/apis/api/lifesciences.googleapis.com/overview
 
 
+----
 
+## Run dsub command
 
+```
+# my_bucket=rwc-data
+# dsub \
+  --project my-cloud-project \
+  --regions us-west1 \
+  \
+  --provider google-cls-v2 \
+  --logging gs://${my_bucket}/logging/ \
+  --output OUT=gs://${my_bucket}/output/out.txt \
+  \
+  --image ubuntu:22.04 \
+  --command 'echo "Hello World" > "${OUT}"' \
+  --wait
+```
 
+----
 
+## Run dsub command<br />output
 
+```
+Job properties:
+  job-id: echo--root--230203-000230-22
+  job-name: echo
+  user-id: root
+Provider internal-id (operation): projects/689131617798/locations/us-central1/operations/4989729828719590152
+Launched job-id: echo--root--230203-000230-22
+To check the status, run:
+  dstat --provider google-cls-v2 --project default-256400 --location us-central1 --jobs 'echo--root--230203-000230-22' --users 'root' --status '*'
+To cancel the job, run:
+  ddel --provider google-cls-v2 --project default-256400 --location us-central1 --jobs 'echo--root--230203-000230-22' --users 'root'
+Waiting for job to complete...
+Waiting for: echo--root--230203-000230-22.
+  echo--root--230203-000230-22: SUCCESS
+echo--root--230203-000230-22
+```
 
+----
+
+## dsub output files
+
+```
+# gsutil ls gs://rwc-data/**
+gs://rwc-data/logging/echo--root--230203-000230-22-stderr.log
+gs://rwc-data/logging/echo--root--230203-000230-22-stdout.log
+gs://rwc-data/logging/echo--root--230203-000230-22.log
+gs://rwc-data/output/out.txt
+```
+
+----
+
+## dsub output
+
+```
+# gsutil cat gs://rwc-data/output/out.txt
+Hello World
+```
 
 ----
 
