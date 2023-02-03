@@ -543,6 +543,24 @@ Hello World
 
 ----
 
+## What's next?
+
+----
+
+## What's next?
+- Tons of options
+  - `dsub --help`
+    - `--after`
+    - `--preemptible`
+    - `--mount`
+    - `--env`
+    - VM options ( RAM, CPU, disks )
+- job control with `dstat`
+- troubleshooting with `--ssh` option
+
+
+----
+
 # Summary
 
 - For large parallel batch jobs, dsub provides a nice solution.
