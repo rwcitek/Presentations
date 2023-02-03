@@ -186,7 +186,7 @@ Use "the cloud"
 ----
 ## Connecting the Dots
 
-<img src="../../public/dsub/dsub.workflow.combo.png" alt="slide" width="800"/>
+<img src="../../public/dsub/dsub.workflow.combo.png" alt="slide" width="400"/>
 
 ----
 
