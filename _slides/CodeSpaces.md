@@ -30,9 +30,37 @@ robert.citek@gmail.com
 	3. My environment is likely different than yours.  Versions, OS, systems all matter.
 - Call me on it when something doesn't sound right.
 
+---
+
+# "One-click" Environments
+
+- BYOD
+  - browser
+  - internet connection
+  - account
 
 ---
 
+# "One-click" Environments
+
+- low power or "borrowed" devices
+  - Rasberry PIs
+  - Chromebooks
+  - Libraries, cafes, shared computers
+
+---
+
+# Landscape
+
+- nbviewer
+- binder
+- kaggle
+- Colab
+- AWS Cloud 9
+- GCP Datalab => AI Notebooks => Vertex AI Workbench
+
+
+---
 
 # Getting started
 
