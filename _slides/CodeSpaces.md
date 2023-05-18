@@ -12,6 +12,14 @@ Robert Citek
 
 robert.citek@gmail.com
 
+---
+
+# $ whoami
+
+[CNM Ingenuity Data Science]( https://deepdivecoding.com/data-science/ )
+
+<img src="https://deepdivecoding.com/wp-content/uploads/2022/08/Image.jpeg" alt="slide" width="200"/>
+
 ----
 
 # Getting started
