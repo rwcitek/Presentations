@@ -22,6 +22,18 @@ robert.citek@gmail.com
 
 ----
 
+# Preamble
+- Ask lots of questions
+- Don't believe everything I say
+	1. CodeSpace is a fast moving target.  What is true now will likely change
+	2. I misspeak. I confuse left with right, right with left, etc. 
+	3. My environment is likely different than yours.  Versions, OS, systems all matter.
+- Call me on it when something doesn't sound right.
+
+
+---
+
+
 # Getting started
 
 ----
