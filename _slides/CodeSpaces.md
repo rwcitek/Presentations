@@ -34,7 +34,7 @@ robert.citek@gmail.com
 
 # "One-click" Environments
 
-- BYOD
+- BYOD - Bring Your Own Device
   - browser
   - internet connection
   - account
@@ -59,6 +59,13 @@ robert.citek@gmail.com
 - AWS Cloud 9
 - GCP Datalab => AI Notebooks => Vertex AI Workbench
 
+
+---
+
+# Landscape
+
+- An example
+	- [LinkedIn Learning]( https://github.com/rwcitek/ddc-datascience/blob/main/LinkedIn-Learning.ipynb)
 
 ---
 
