@@ -166,7 +166,29 @@ robert.citek@gmail.com
 
 ----
 
+# Customizations
+
+---
+
+# Shortcomings
+- Key bindings -- maybe
+- Single VM
+
+---
+
+# Summary
+- Reqs: browser, internet, and GH account
+- VS Code
+- Terminal
+- Docker
+- Root
+- Internet connection
+
+---
+
 # What's next?
+- [VSCode Server](https://github.com/coder/code-server)
+- Demo 
 
 ----
 
