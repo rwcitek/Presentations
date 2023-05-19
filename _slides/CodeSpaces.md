@@ -228,6 +228,7 @@ robert.citek@gmail.com
 # Shortcomings
 - Key bindings -- maybe
 - Single VM
+- Most extensions don't work
 
 ---
 
