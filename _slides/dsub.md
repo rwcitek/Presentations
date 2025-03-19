@@ -71,6 +71,11 @@ Collect ~10,000 pathology slide scans for machine learning
 
 - Time
   - min/image: ~30 
+  - minutes: 
+  - hours: 
+  - days: 
+  - weeks: 
+  - months: 
 
 
 ----
@@ -88,15 +93,6 @@ Collect ~10,000 pathology slide scans for machine learning
     - days: ~200
     - weeks: ~30 
     - months: ~7
-
-
-----
-
-  - minutes: 
-  - hours: 
-  - days: 
-  - weeks: 
-  - months: 
 
 ----
 
