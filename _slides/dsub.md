@@ -261,9 +261,6 @@ Use "the cloud"
   width="250"
 />
 
-
-
-
 ----
 
 ## Big savings
@@ -286,7 +283,7 @@ Use "the cloud"
 
 ## Big savings
 
-- 3 hours << 2 weeks << 7 months
+- 3 hours << 2 weeks << 30 weeks
 - from 5,000 hours to 3 hours => ~1,000x
 - from $30,000 to $300 => ~100x
 - Net: faster, better, cheaper
@@ -411,12 +408,11 @@ Hello World
 
 ## Run multiple jobs<br />using a TSV file (pt1)
 
-Create a mock input file
-
+1) Create a mock input file
 ```
 # echo 'Hello, world!' > /tmp/input.txt
 ```
-Create the TSV file with inputs and outputs
+2) Create the TSV file with inputs and outputs
 ```
 # << eof sed -e's/ *{tab} */\t/g' > run.tsv
 --input INPUT  {tab} --output OUTPUT
@@ -430,7 +426,7 @@ eof
 
 ## Run multiple jobs<br />using a TSV file (pt2)
 
-Create a script that generates output from input
+3) Create a script that generates output from input
 ```
 <<'eof' cat > multi-job.sh
 #!/bin/bash
@@ -443,7 +439,7 @@ eof
 
 ## Run multiple jobs<br />using a TSV file (pt3)
 
-Run dsub
+4) Run dsub
 ```
 # dsub \
   --provider local \
@@ -477,7 +473,7 @@ multi-job--root--250320-041332-71
 
 ----
 
-## 
+## View Filesystem from multiple jobs
 
 ```
 # tree dsub-test/
@@ -500,7 +496,7 @@ dsub-test/
 
 ----
 
-## 
+## View Output from multiple jobs
 
 ```
 # tail -n +1 dsub-test/output/*  
