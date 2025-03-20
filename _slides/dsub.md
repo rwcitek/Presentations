@@ -70,12 +70,13 @@ Collect ~10,000 pathology slide scans for machine learning
     - total : ~1 TB
 
 - Time
-  - min/image: ~30 
-  - minutes: 
-  - hours: 
-  - days: 
-  - weeks: 
-  - months: 
+  - min/image: ~30<span class="fragment">
+  - minutes: ~300,000 
+  - hours: ~5,000 
+  - days: ~200
+  - weeks: ~30 
+  - months: ~7
+</span>
 
 
 ----
@@ -96,8 +97,8 @@ Collect ~10,000 pathology slide scans for machine learning
 
 ----
 
-# 7.5 mo ~ 30 weeks 
-# > 2 weeks
+# 7 mo ~ 30 weeks 
+# 30 weeks > 2 weeks
 
 
 <img src="https://png.pngtree.com/png-vector/20210402/ourlarge/pngtree-heart-shaped-anniversary-black-and-white-calendar-icon-date-plan-png-image_3189633.jpg" alt="calendar" width="400"/>
@@ -106,10 +107,12 @@ Collect ~10,000 pathology slide scans for machine learning
 ----
 
 ## Options ???
-- Admit defeat: it will take 7.5 months
+- <span class="fragment">
+Admit defeat: it will take ~7 months
+</span>
 
 - <span class="fragment">
-Get a much bigger computer(s) ( ~$30k+ )
+Get a much bigger computer(s) ( $30k-$80k+ )
 </span>
 
 - <span class="fragment">
