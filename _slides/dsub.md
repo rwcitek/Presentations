@@ -295,14 +295,14 @@ $ docker container exec -it dsub /bin/bash
 ## Setup environment
 
 ```
-# docker image pull ubuntu:22.04
-# docker image tag ubuntu:22.04 ubuntu:dsub
+# docker image pull ubuntu:24.04
+# docker image tag ubuntu:24.04 ubuntu:dsub
 # docker image list ubuntu
 
-  REPOSITORY   TAG       IMAGE ID       CREATED       SIZE
-  ubuntu       22.04     58db3edaf2be   7 days ago    77.8MB
-  ubuntu       dsub      58db3edaf2be   7 days ago    77.8MB
-  ubuntu       latest    6b7dfa7e8fdb   7 weeks ago   77.8MB
+REPOSITORY   TAG       IMAGE ID       CREATED       SIZE
+ubuntu       24.04     a04dc4851cbc   7 weeks ago   78.1MB
+ubuntu       dsub      a04dc4851cbc   7 weeks ago   78.1MB
+
 ```
 
 ----
@@ -327,18 +327,18 @@ Output
 
 ```
 Job properties:
-  job-id: echo--root--230202-234211-97
+  job-id: echo--root--250320-040934-02
   job-name: echo
   user-id: root
-Launched job-id: echo--root--230202-234211-97
+Launched job-id: echo--root--250320-040934-02
 To check the status, run:
-  dstat --provider local --jobs 'echo--root--230202-234211-97' --users 'root' --status '*'
+  dstat --provider local --jobs 'echo--root--250320-040934-02' --users 'root' --status '*'
 To cancel the job, run:
-  ddel --provider local --jobs 'echo--root--230202-234211-97' --users 'root'
+  ddel --provider local --jobs 'echo--root--250320-040934-02' --users 'root'
 Waiting for job to complete...
-Waiting for: echo--root--230202-234211-97.
-  echo--root--230202-234211-97: SUCCESS
-echo--root--230202-234211-97
+Waiting for: echo--root--250320-040934-02.
+  echo--root--250320-040934-02: SUCCESS
+echo--root--250320-040934-02
 ```
 
 ----
@@ -349,11 +349,12 @@ echo--root--230202-234211-97
 # tree dsub-test/
 dsub-test/
 |-- logging
-|   |-- echo--root--230202-234211-97-stderr.log
-|   |-- echo--root--230202-234211-97-stdout.log
-|   `-- echo--root--230202-234211-97.log
+|   |-- echo--root--250320-040934-02-stderr.log
+|   |-- echo--root--250320-040934-02-stdout.log
+|   `-- echo--root--250320-040934-02.log
 `-- output
     `-- out.command.txt
+
 ```
 ```
 # cat dsub-test/output/out.command.txt 
@@ -414,19 +415,19 @@ Run dsub
 
 ```
 Job properties:
-  job-id: multi-job--root--230202-235111-34
+  job-id: multi-job--root--250320-041332-71
   job-name: multi-job
   user-id: root
-Launched job-id: multi-job--root--230202-235111-34
+Launched job-id: multi-job--root--250320-041332-71
 3 task(s)
 To check the status, run:
-  dstat --provider local --jobs 'multi-job--root--230202-235111-34' --users 'root' --status '*'
+  dstat --provider local --jobs 'multi-job--root--250320-041332-71' --users 'root' --status '*'
 To cancel the job, run:
-  ddel --provider local --jobs 'multi-job--root--230202-235111-34' --users 'root'
+  ddel --provider local --jobs 'multi-job--root--250320-041332-71' --users 'root'
 Waiting for job to complete...
-Waiting for: multi-job--root--230202-235111-34.
-  multi-job--root--230202-235111-34: SUCCESS
-multi-job--root--230202-235111-34
+Waiting for: multi-job--root--250320-041332-71.
+  multi-job--root--250320-041332-71: SUCCESS
+multi-job--root--250320-041332-71
 ```
 
 ----
@@ -437,15 +438,15 @@ multi-job--root--230202-235111-34
 # tree dsub-test/
 dsub-test/
 |-- logging
-|   |-- multi-job--root--230202-235111-34.1-stderr.log
-|   |-- multi-job--root--230202-235111-34.1-stdout.log
-|   |-- multi-job--root--230202-235111-34.1.log
-|   |-- multi-job--root--230202-235111-34.2-stderr.log
-|   |-- multi-job--root--230202-235111-34.2-stdout.log
-|   |-- multi-job--root--230202-235111-34.2.log
-|   |-- multi-job--root--230202-235111-34.3-stderr.log
-|   |-- multi-job--root--230202-235111-34.3-stdout.log
-|   `-- multi-job--root--230202-235111-34.3.log
+|   |-- multi-job--root--250320-041332-71.1-stderr.log
+|   |-- multi-job--root--250320-041332-71.1-stdout.log
+|   |-- multi-job--root--250320-041332-71.1.log
+|   |-- multi-job--root--250320-041332-71.2-stderr.log
+|   |-- multi-job--root--250320-041332-71.2-stdout.log
+|   |-- multi-job--root--250320-041332-71.2.log
+|   |-- multi-job--root--250320-041332-71.3-stderr.log
+|   |-- multi-job--root--250320-041332-71.3-stdout.log
+|   `-- multi-job--root--250320-041332-71.3.log
 `-- output
     |-- out1.multi.txt
     |-- out2.multi.txt
@@ -457,9 +458,18 @@ dsub-test/
 ## 
 
 ```
-# cat -n dsub-test/output/out3.multi.txt 
-     1  Greetings, world!
-     2  Thu Feb  2 23:51:23 UTC 2023
+# tail -n +1 dsub-test/output/*  
+==> dsub-test/output/out1.multi.txt <==
+Greetings, world!
+Thu Mar 20 04:13:37 UTC 2025
+
+==> dsub-test/output/out2.multi.txt <==
+Greetings, world!
+Thu Mar 20 04:13:37 UTC 2025
+
+==> dsub-test/output/out3.multi.txt <==
+Greetings, world!
+Thu Mar 20 04:13:37 UTC 2025
 ```
 
 ----
