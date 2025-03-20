@@ -70,7 +70,9 @@ Collect ~10,000 pathology slide scans for machine learning
     - total : ~1 TB
 
 - Time
-  - min/image: ~30<span class="fragment">
+  - min/image: ~30
+<span class="fragment">
+- Total Time
   - minutes: ~300,000 
   - hours: ~5,000 
   - days: ~200
@@ -126,7 +128,7 @@ Use "the cloud"
 - Google Cloud Platform
 
 <img
-  src="https://www.gstatic.com/devrel-devsite/prod/v6cd15f45ec209c8961e07ea7e57ed9a0e9da4333bc915e67d1fcd2b2a9ec62d1/cloud/images/social-icon-google-cloud-1200-630.png" 
+  src="https://storage.googleapis.com/gweb-cloudblog-publish/images/BlogHeader_Set2_D_ShTJD99.max-2600x2600.png" 
   alt="GCP"
   width="800"
 />
