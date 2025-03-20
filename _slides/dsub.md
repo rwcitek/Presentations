@@ -196,6 +196,7 @@ Use "the cloud"
 - Launched dsub
 
 ----
+
 ## Connecting the Dots
 
 <img src="../../public/dsub/dsub.workflow.combo.png" alt="slide" width="400"/>
@@ -209,8 +210,49 @@ Use "the cloud"
 - launch Docker to convert image
 - push converted image + metadata to GS
 - destroy VM
-- repeat for each image <span class="fragment">... in parallel</span>
+- repeat for each image <span class="fragment">... IN PARALLEL</span>
 
+----
+
+## dsub Workflow
+
+<img src="../../public/dsub/dsub.run.job.png" alt="slide" width="400"/>
+
+----
+
+## dsub Workflow
+
+<img src="../../public/dsub/dsub.run.job.n-06.png" alt="slide" width="400"/>
+
+----
+
+## dsub Workflow
+
+<img src="../../public/dsub/dsub.run.job.n-05.png" alt="slide" width="400"/>
+
+----
+
+## dsub Workflow
+
+<img src="../../public/dsub/dsub.run.job.n-04.png" alt="slide" width="400"/>
+
+----
+
+## dsub Workflow
+
+<img src="../../public/dsub/dsub.run.job.n-03.png" alt="slide" width="400"/>
+
+----
+
+## dsub Workflow
+
+<img src="../../public/dsub/dsub.run.job.n-02.png" alt="slide" width="400"/>
+
+----
+
+## dsub Workflow
+
+<img src="../../public/dsub/dsub.run.job.n-01.png" alt="slide" width="400"/>
 
 ----
 
