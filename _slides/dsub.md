@@ -216,13 +216,13 @@ Use "the cloud"
 
 ## dsub Workflow
 
-<img src="../../public/dsub/dsub.run.job.n-01.png" alt="slide" width="400"/>
+<img src="../../public/dsub/dsub.run.job.n-01.png" alt="slide" width="600"/>
 
 ----
 
 ## dsub Workflow
 
-<img src="../../public/dsub/dsub.run.job.png" alt="slide" width="400"/>
+<img src="../../public/dsub/dsub.run.job.png" alt="slide" width="600"/>
 
 ----
 
