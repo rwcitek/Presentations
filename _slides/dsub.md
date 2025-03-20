@@ -99,7 +99,7 @@ Collect ~10,000 pathology slide scans for machine learning
 ----
 
 # 7 mo ~ 30 weeks 
-# 30 weeks > 2 weeks
+# 30 weeks >> 2 weeks
 
 
 <img
@@ -156,8 +156,8 @@ Use "the cloud"
 - dsub ( batch scheduler )
 
 <img
-  src="https://storage.googleapis.com/gweb-cloudblog-publish/images/BlogHeader_Set2_D_ShTJD99.max-2600x2600.png"
-  alt="GCP"
+  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgG-Wyr7CAYwhkI6md8R6PQwelhLMZwiKtmg&s"
+  alt="GCS"
   height="250"
   width="200"
 />
@@ -184,15 +184,15 @@ Use "the cloud"
 ----
 
 ## Connecting the Dots
-- Pushed images to GS
+- Pushed images to GCS
 - Wrapped Python script in Docker
 - Pushed Docker to GCR
 - Created dsub template
+  - 1 VM : 1 Docker Instance : 1 TIFF image
   - VM details ( CPUs, RAM, local storage, preemptible )
   - Process ( Docker container + Python sript )
   - Input ( proprietary image )
   - Output ( converted image + metadata )
-  - 1 VM : 1 Docker : 1 image
 - Launched dsub
 
 ----
@@ -230,6 +230,39 @@ Use "the cloud"
   alt="data center"
   width="1000"
 />
+
+----
+
+## 4,000 CPUs in parallel
+
+<img
+  src="https://storage.googleapis.com/gweb-uniblog-publish-prod/images/unnamed_RTmGiMI.max-1300x1300.png"
+  alt="data center"
+  width="250"
+/>
+<img
+  src="https://storage.googleapis.com/gweb-uniblog-publish-prod/images/unnamed_RTmGiMI.max-1300x1300.png"
+  alt="data center"
+  width="250"
+/>
+<img
+  src="https://storage.googleapis.com/gweb-uniblog-publish-prod/images/unnamed_RTmGiMI.max-1300x1300.png"
+  alt="data center"
+  width="250"
+/>
+<img
+  src="https://storage.googleapis.com/gweb-uniblog-publish-prod/images/unnamed_RTmGiMI.max-1300x1300.png"
+  alt="data center"
+  width="250"
+/>
+<img
+  src="https://storage.googleapis.com/gweb-uniblog-publish-prod/images/unnamed_RTmGiMI.max-1300x1300.png"
+  alt="data center"
+  width="250"
+/>
+
+
+
 
 ----
 
