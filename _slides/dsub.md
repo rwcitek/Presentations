@@ -220,6 +220,12 @@ Use "the cloud"
 
 ----
 
+## dsub Workflow
+
+<img src="../../public/dsub/dsub.run.job.n-06.png" alt="slide" width="400"/>
+
+----
+
 ## Metrics
 - maximum of 4,000 VMs running in parallel
 - total time: ~3 hours
