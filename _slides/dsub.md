@@ -67,18 +67,16 @@ Collect ~10,000 pathology slide scans for machine learning
 
 - Size
   - MB/image: ~100
-    - total : ~1 TB
+  - Total : ~1 TB
 
 - Time
   - min/image: ~30
-<span class="fragment">
 - Total Time
-  - minutes: ~300,000 
-  - hours: ~5,000 
-  - days: ~200
-  - weeks: ~30 
-  - months: ~7
-</span>
+  - minutes:
+  - hours:
+  - days:
+  - weeks:
+  - months:
 
 
 ----
@@ -87,15 +85,16 @@ Collect ~10,000 pathology slide scans for machine learning
 
 - Size
   - MB/image: ~100
-    - total: ~1 TB
+  - Total: ~1 TB
 
 - Time
   - min/image: ~30 
-    - minutes: ~300,000 
-    - hours: ~5,000 
-    - days: ~200
-    - weeks: ~30 
-    - months: ~7
+- Total Time
+  - minutes: ~300,000 
+  - hours: ~5,000 
+  - days: ~200
+  - weeks: ~30 
+  - months: ~7
 
 ----
 
@@ -103,8 +102,11 @@ Collect ~10,000 pathology slide scans for machine learning
 # 30 weeks > 2 weeks
 
 
-<img src="https://png.pngtree.com/png-vector/20210402/ourlarge/pngtree-heart-shaped-anniversary-black-and-white-calendar-icon-date-plan-png-image_3189633.jpg" alt="calendar" width="400"/>
-
+<img
+  src="https://png.pngtree.com/png-vector/20210402/ourlarge/pngtree-heart-shaped-anniversary-black-and-white-calendar-icon-date-plan-png-image_3189633.jpg"
+  alt="calendar"
+  width="400"
+/>
 
 ----
 
@@ -154,12 +156,12 @@ Use "the cloud"
 - dsub ( batch scheduler )
 
 <img
-  src="https://lh3.googleusercontent.com/D4Zcor2AekWNG-5vxBLHIUhLiqfx327GwqhQ9xJNx8Ne1-GCFu9YECaKGXlwtUPfDFgO53-phOQ=e14-rw-lo-sc0xffffff-h24"
+  src="https://storage.googleapis.com/gweb-cloudblog-publish/images/BlogHeader_Set2_D_ShTJD99.max-2600x2600.png"
   alt="GCP"
   width="200"
 />
 <img
-  src="https://banner2.cleanpng.com/20180412/kye/kisspng-python-programming-language-computer-programming-language-5acfdc3636bac7.8891188615235717662242.jpg"
+  src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1200px-Python-logo-notext.svg.png"
   alt="Python"
   width="200"
 />
