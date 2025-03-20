@@ -218,11 +218,23 @@ Use "the cloud"
 
 <img src="../../public/dsub/dsub.run.job.n-01.png" alt="slide" width="600"/>
 
+Setup and Run
+
 ----
 
 ## dsub Workflow
 
 <img src="../../public/dsub/dsub.run.job.png" alt="slide" width="600"/>
+
+Destroy!
+
+----
+
+## dsub Workflow
+
+<img src="../../public/dsub/dsub.run.job.n-01.png" alt="slide" width="600"/>
+
+Repeat
 
 ----
 
