@@ -212,13 +212,14 @@ Use "the cloud"
 
 ## Metrics
 - maximum of 4,000 VMs running in parallel
-- ~30 min/image
 - total time: ~3 hours
+- per image time: ~30 min
 - total cost: ~$300
+- per image cost: $0.03
 
 ----
 
-## 4,000 CPUs
+## 4,000 CPUs in parallel
 
 <img
   src="https://storage.googleapis.com/gweb-uniblog-publish-prod/images/unnamed_RTmGiMI.max-1300x1300.png"
@@ -237,7 +238,7 @@ Use "the cloud"
   height="400"
 />
 <img
-  src="https://pngimages.in/uploads/png-webp/2022/2022-September/Money_Png_Transparent_Images.webp"
+  src="https://img.freepik.com/premium-vector/sack-money-big-pile-cash-money-icon-illustration-money-bag-flat-icon_385450-362.jpg"
   alt="time"
   width="400"
   height="400"
@@ -251,7 +252,7 @@ Use "the cloud"
 - 3 hours << 2 weeks << 7 months
 - from 5,000 hours to 3 hours => ~1,000x
 - from $30,000 to $300 => ~100x
-- Net: ~100,000x time-dollar savings
+- Net: faster, better, cheaper
 
 ----
 
