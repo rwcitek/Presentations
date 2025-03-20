@@ -158,21 +158,25 @@ Use "the cloud"
 <img
   src="https://storage.googleapis.com/gweb-cloudblog-publish/images/BlogHeader_Set2_D_ShTJD99.max-2600x2600.png"
   alt="GCP"
+  height="250"
   width="200"
 />
 <img
   src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1200px-Python-logo-notext.svg.png"
   alt="Python"
+  height="250"
   width="200"
 />
 <img
   src="https://www.docker.com/wp-content/uploads/2022/03/Moby-logo.png"
   alt="Docker"
+  height="250"
   width="200"
 />
 <img
   src="https://lh3.googleusercontent.com/E6eJcOVeO64N8P3gPvRoSwmrzK-olWpfje16gjhGKlKPgQKXmfIqjnQfYaX8gdE0zMvLLGy678dBrYNxMwavKg=w80-h80"
   alt="GCR"
+  height="250"
   width="200"
 />
 
