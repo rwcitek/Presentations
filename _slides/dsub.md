@@ -262,27 +262,27 @@ Repeat
 <img
   src="https://storage.googleapis.com/gweb-uniblog-publish-prod/images/unnamed_RTmGiMI.max-1300x1300.png"
   alt="data center"
-  width="250"
+  width="200"
 />
 <img
   src="https://storage.googleapis.com/gweb-uniblog-publish-prod/images/unnamed_RTmGiMI.max-1300x1300.png"
   alt="data center"
-  width="250"
+  width="200"
 />
 <img
   src="https://storage.googleapis.com/gweb-uniblog-publish-prod/images/unnamed_RTmGiMI.max-1300x1300.png"
   alt="data center"
-  width="250"
+  width="200"
 />
 <img
   src="https://storage.googleapis.com/gweb-uniblog-publish-prod/images/unnamed_RTmGiMI.max-1300x1300.png"
   alt="data center"
-  width="250"
+  width="200"
 />
 <img
   src="https://storage.googleapis.com/gweb-uniblog-publish-prod/images/unnamed_RTmGiMI.max-1300x1300.png"
   alt="data center"
-  width="250"
+  width="200"
 />
 
 ----
@@ -310,7 +310,7 @@ Repeat
 - 3 hours << 2 weeks << 30 weeks
 - from 5,000 hours to 3 hours => ~1,000x
 - from $30,000 to $300 => ~100x
-- Net: faster, better, cheaper
+- Net: faster, cheaper, better
 
 ----
 
